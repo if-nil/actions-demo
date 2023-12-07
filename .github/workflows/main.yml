@@ -10,6 +10,7 @@ jobs:
         uses: if-nil/docsify-file-catalog-action@main
         with:
           who-to-greet: 'Mona the Octocat'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
  
