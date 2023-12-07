@@ -3,14 +3,11 @@ on: [push]
 jobs:
   add_sidebar_job:
     runs-on: ubuntu-latest
-    name: A job to add _sidebar.md
+    name: job to add _sidebar.md
     steps:
       - uses: actions/checkout@v4
       - id: foo
         uses: if-nil/docsify-file-catalog-action@main
         with:
-          who-to-greet: 'Mona the Octocat'
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      - run: echo random-number ${{ steps.foo.outputs.random-number }}
-        shell: bash
     
