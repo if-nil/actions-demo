@@ -1,9 +1,9 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  add_sidebar_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: A job to add _sidebar.md
     steps:
       - uses: actions/checkout@v4
       - id: foo
