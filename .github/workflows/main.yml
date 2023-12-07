@@ -6,7 +6,6 @@ jobs:
     name: job to add _sidebar.md
     steps:
       - uses: actions/checkout@v4
-      - id: foo
-        uses: if-nil/docsify-file-catalog-action@main
+      - uses: if-nil/docsify-file-catalog-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
