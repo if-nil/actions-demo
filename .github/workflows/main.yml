@@ -9,3 +9,4 @@ jobs:
       - uses: if-nil/docsify-file-catalog-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+ 
