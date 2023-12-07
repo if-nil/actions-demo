@@ -13,4 +13,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
- 
