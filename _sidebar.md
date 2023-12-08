@@ -4,6 +4,7 @@
   - [file1.md](./directory1/file1.md)
 - directory2
   - [file2.md](./directory2/file2.md)
+  - [file2.pdf](./directory2/file2.pdf)
 - directory3
   - [file3.md](./directory3/file3.md)
 - [index.html](./index.html)
