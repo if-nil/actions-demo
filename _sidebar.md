@@ -1,9 +1,4 @@
 - [README.md](./README.md)
 - directory1
-  - [file1.1.md](./directory1/file1.1.md)
-  - [file1.md](./directory1/file1.md)
 - directory2
-  - [file2.md](./directory2/file2.md)
 - directory3
-  - [file3.md](./directory3/file3.md)
-- [_sidebar.md](./_sidebar.md)
